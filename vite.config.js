@@ -8,7 +8,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   // 🚨 CRITICAL ADDITION: Set the base path to your repository name
   // Change '/REPO_NAME/' to the name of your GitHub repository (e.g., '/battery-dashboard/')
-  base: '/battery-dashboard/', 
+  base: './', 
   
   plugins: [
     vue(),
